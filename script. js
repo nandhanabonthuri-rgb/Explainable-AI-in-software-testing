@@ -1,0 +1,5 @@
+function showExplanation() {
+    document.getElementById("output").innerHTML =
+        "AI detected a failure due to incorrect input validation. " +
+        "The explanation shows that missing boundary checks caused the defect.";
+}
